@@ -27,16 +27,18 @@ def merge(left: list[str], right: list[str], merged: list[str]) -> list[str]:
     return "".join(merged)
 
 
-def verifyng_is_anagram(first_string, second_string): ...
-
-
 def is_anagram(first_string, second_string):
     merged_first_string = merge_sort(first_string.lower())
     merged_second_string = merge_sort(second_string.lower())
-    if merged_first_string == merged_second_string:
-        return (merged_first_string, merged_second_string, True)
-    else:
-        return False
+    if merged_first_string == "":
+        return ("", merged_second_string, False)
+    if merged_second_string == "":
+        return (merged_first_string, "", False)
+    if merged_first_string == "" and merged_second_string == "":
+        return ("", "", False)
+    if merged_first_string != merged_second_string:
+        return (merged_first_string, merged_second_string, False)
+    return (merged_first_string, merged_second_string, True)
 
 
 print(is_anagram("Amor", "roma"))
