@@ -31,8 +31,8 @@ def verifyng_is_anagram(first_string, second_string): ...
 
 
 def is_anagram(first_string, second_string):
-    merged_first_string = merge_sort(first_string).lower()
-    merged_second_string = merge_sort(second_string).lower()
+    merged_first_string = merge_sort(first_string.lower())
+    merged_second_string = merge_sort(second_string.lower())
     if merged_first_string == merged_second_string:
         return (merged_first_string, merged_second_string, True)
     else:
