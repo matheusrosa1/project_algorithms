@@ -31,11 +31,11 @@ Clone o repositório
 * Entre na pasta do repositório que você acabou de clonar:
   * `cd sd-035-project-algorithms`
 
-  2. Crie o ambiente virtual para o projeto
+2. Crie o ambiente virtual para o projeto
 
 * `python3 -m venv .venv && source .venv/bin/activate`
 
-  3. Instale as dependências
+3. Instale as dependências
 
 * `python3 -m pip install -r dev-requirements.txt`
 
