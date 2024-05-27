@@ -9,7 +9,3 @@ def find_duplicate(nums):
             return nums[i]
 
     return False
-
-
-nums = [-1, -1]
-print(find_duplicate(nums))

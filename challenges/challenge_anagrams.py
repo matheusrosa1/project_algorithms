@@ -39,6 +39,3 @@ def is_anagram(first_string, second_string):
     if merged_first_string != merged_second_string:
         return (merged_first_string, merged_second_string, False)
     return (merged_first_string, merged_second_string, True)
-
-
-print(is_anagram("Amor", "roma"))
