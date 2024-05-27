@@ -43,7 +43,8 @@ O projeto consiste na implementação de algoritmos para resolver problemas espe
 
 Após a instalação, você pode utilizar as seguintes funcionalidades do projeto:
 
-Determinar o Horário com Maior Número de Estudantes
+<summary><strong></strong>Determinar o Horário com Maior Número de Estudantes </summary><br />
+
 Implemente a função no arquivo challenges/challenge_study_schedule.py.
 Para usar a função, execute:
 python
