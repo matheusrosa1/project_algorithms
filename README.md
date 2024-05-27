@@ -25,7 +25,7 @@ O projeto consiste na implementação de algoritmos para resolver problemas espe
 
 ## Instalação
 
-Clone o repositório
+1. Clone o repositório
 
 * Use o comando: `git clone git@github.com:matheusrosa1/project_algorithms.git`.
 * Entre na pasta do repositório que você acabou de clonar:
