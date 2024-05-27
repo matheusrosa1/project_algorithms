@@ -25,28 +25,19 @@ O projeto consiste na implementação de algoritmos para resolver problemas espe
 
 ## Instalação
 
-Para instalar e executar este projeto localmente, siga as instruções abaixo:
+Clone o repositório
 
-Clone o repositório:
+* Use o comando: `git clone git@github.com:matheusrosa1/project_algorithms.git`.
+* Entre na pasta do repositório que você acabou de clonar:
+  * `cd sd-035-project-algorithms`
 
-git clone https://github.com/seu-usuario/projeto-de-algoritmos.git
-cd projeto-de-algoritmos
-Crie um ambiente virtual:
+  2. Crie o ambiente virtual para o projeto
 
+* `python3 -m venv .venv && source .venv/bin/activate`
 
-python -m venv venv
-Ative o ambiente virtual:
+  3. Instale as dependências
 
-No Windows:
-
-venv\Scripts\activate
-No macOS/Linux:
-
-source venv/bin/activate
-Instale as dependências:
-
-
-pip install -r requirements.txt
+* `python3 -m pip install -r dev-requirements.txt`
 
 ## Como Usar
 
