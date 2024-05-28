@@ -68,14 +68,6 @@ Após a instalação, você pode utilizar as seguintes funcionalidades do projet
     print(result)  # Exibe o número de estudantes no horário alvo
     ```
 
-### Testar a Função de Criptografia
-
-1. Implemente os testes no arquivo `tests/encrypt/test_encrypt.py`.
-2. Para executar os testes, use:
-    ```sh
-    python -m unittest discover -s tests/encrypt
-    ```
-
 ### Verificar se uma Palavra é um Palíndromo (Recursivo)
 
 1. Implemente a função no arquivo `challenges/challenge_palindromes_recursive.py`.
@@ -84,6 +76,17 @@ Após a instalação, você pode utilizar as seguintes funcionalidades do projet
     from challenges.challenge_palindromes_recursive import is_palindrome_recursive
 
     result = is_palindrome_recursive("radar")
+    print(result)  # True
+    ```
+
+### Verificar se uma Palavra é um Palíndromo (Iterativo)
+
+1. Implemente a função no arquivo `challenges/challenge_palindromes_iterative.py`.
+2. Para usar a função, execute:
+    ```python
+    from challenges.challenge_palindromes_iterative import is_palindrome_iterative
+
+    result = is_palindrome_iterative("radar")
     print(result)  # True
     ```
 
@@ -96,6 +99,18 @@ Após a instalação, você pode utilizar as seguintes funcionalidades do projet
 
     result = are_anagrams("Listen", "Silent")
     print(result)  # (sorted string1, sorted string2, True)
+    ```
+
+### Encontrar Números Duplicados em um Array
+
+1. Implemente a função no arquivo `challenges/challenge_find_the_duplicate.py`.
+2. Para usar a função, execute:
+    ```python
+    from challenges.challenge_find_the_duplicate import find_duplicate
+
+    nums = [1, 3, 4, 2, 2]
+    result = find_duplicate(nums)
+    print(result)  # Exibe o número duplicado
     ```
 
 ## Contribuição
