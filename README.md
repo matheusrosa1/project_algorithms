@@ -75,7 +75,7 @@ Após a instalação, você pode utilizar as seguintes funcionalidades do projet
     ```python
     from challenges.challenge_palindromes_recursive import is_palindrome_recursive
 
-    result = is_palindrome_recursive("radar")
+    result = is_palindrome_recursive("radar", 0, len("radar") - 1)
     print(result)  # True
     ```
 
