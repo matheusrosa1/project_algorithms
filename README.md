@@ -19,7 +19,7 @@ O projeto consiste na implementação de algoritmos para resolver problemas espe
 ## Tecnologias Utilizadas
 
 - Python
-- Bibliotecas de Teste: `unittest`
+- Bibliotecas de Teste: `pytest`
 
 ## Instalação
 
