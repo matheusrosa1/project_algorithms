@@ -110,7 +110,7 @@ Para contribuir com o projeto, siga os passos abaixo:
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Licença [MIT](https://github.com/matheusrosa1/project_algorithms?tab=MIT-1-ov-file) 
 
 ## Contato
 
