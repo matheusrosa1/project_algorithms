@@ -116,5 +116,5 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 
 Para mais informações, entre em contato com os mantenedores do projeto:
 
-- GitHub: [Seu Perfil](https://github.com/seu-usuario)
-- E-mail: seu-email@example.com
+- GitHub: [matheusrosa1](https://github.com/matheusrosa1/)
+- E-mail: matheusrosataxa@gmail.com
