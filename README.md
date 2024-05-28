@@ -27,8 +27,8 @@ Para instalar e executar este projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/projeto-de-algoritmos.git
-    cd projeto-de-algoritmos
+    git clone git@github.com:matheusrosa1/project_algorithms.git
+    cd project_algorithms
     ```
 
 2. Crie um ambiente virtual:
