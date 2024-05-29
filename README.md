@@ -132,4 +132,4 @@ Licença [MIT](https://github.com/matheusrosa1/project_algorithms?tab=MIT-1-ov-f
 Para mais informações, entre em contato com os mantenedores do projeto:
 
 - GitHub: [matheusrosa1](https://github.com/matheusrosa1/)
-- E-mail: matheusrosataxa@gmail.com
+- E-mail: matheusrosa.dev@gmail.com
